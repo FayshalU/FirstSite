@@ -34,7 +34,7 @@
     <![endif]-->
   </head>
 
-  <body>
+  <body data-spy="scroll" data-target=".navbar-collapse" data-offset="100">
 
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
@@ -45,7 +45,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">My First Site</a>
+          <a class="navbar-brand" href="#jumbotron">My First Site</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
@@ -57,7 +57,7 @@
     </nav>
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
+    <div id="jumbotron" class="jumbotron">
       <div class="container header">
         <h1><strong>Hello, world!</strong></h1>
         <p>This is my first site :)</p>
@@ -70,7 +70,7 @@
       <div class="container homepage">
         <h2>Who We Are</h2>
         <hr>
-        <p>We are <a href="http://www.fsit.aiub.edu" target="_blank"> MASSIVE ACADEMY</a>.We aim to improve education through both method - effective project-based learning and material -by teaching skills that are applicable to improving your life today.
+        <p><strong>AMERICAN INTERNATIONAL UNIVERSITY-BANGLADESH</strong> <a href="http://www.aiub.edu" target="_blank">(AIUB)</a> envisions promoting professionals and excellent leadership catering to the technological progress and development needs of the country.<strong>AMERICAN INTERNATIONAL UNIVERSITY-BANGLADESH</strong> <a href="http://www.fsit.aiub.edu" target="_blank">(AIUB)</a> is committed to provide quality and excellent computer-based academic programs responsive to the emerging challenges of the time. It is dedicated to nurture and produce competent world class professional imbued with strong sense of ethical values ready to face the competitive world of arts, business, science, social science and technology.
         </p>
       </div>
     </div>
@@ -127,5 +127,6 @@
     <script src="js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="js/smoothscroll.js"></script>
   </body>
 </html>
