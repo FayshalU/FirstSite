@@ -61,7 +61,17 @@
       <div class="container header">
         <h1><strong>Hello, world!</strong></h1>
         <p>This is my first site :)</p>
-        <p><a class="btn btn-danger btn-lg" href="http://www.google.com/search?site=&source=hp&q=american+international+university-bangladesh&oq=american+international+university-&gs_l=hp.3.0.0l5.1987.36983.0.47325.38.22.4.12.14.0.449.4101.0j19j2j0j1.22.0....0...1c.1.64.hp..0.36.3958.0..46j0i131k1j0i10k1j0i46k1.lQrGYGgPpq0" target="_blank" role="button">Learn more &raquo;</a></p>
+        <p><a class="btn btn-danger btn-lg" role="button" data-toggle="modal" data-target="#myModal"> Learn more &raquo;
+        </a></p>
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/kHP2f5bp_Xc" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
         <img src="Images/AIUB.png" title="AIUB logo" alt="AIUB">
       </div>
     </div>
